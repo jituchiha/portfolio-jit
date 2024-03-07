@@ -57,10 +57,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am a passionate full stack web developer with a Master's degree in Computer Science and a 
-          Bachelor's degree in Computer Science. Proficient in JavaScript, React, Node.js, and various other technologies,
-           I specialize in creating interactive and responsive web applications. With a keen interest in learning and a collaborative spirit, I am enthusiastic about contributing to innovative projects and expanding my skill set further.
-          </p>
+  I am a passionate full stack web developer with a Master&apos;s degree in Computer Science and a 
+  Bachelor&apos;s degree in Computer Science. Proficient in JavaScript, React, Node.js, and various other technologies,
+  I specialize in creating interactive and responsive web applications. With a keen interest in learning and a collaborative spirit,
+  I am enthusiastic about contributing to innovative projects and expanding my skill set further.
+</p>
+
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}

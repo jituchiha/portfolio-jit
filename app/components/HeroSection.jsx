@@ -20,7 +20,7 @@ export const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         ></motion.div>
          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Hello, I'm {""} </span>
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'>Hello, I&apos;m {""} </span>
             <br></br>
             <TypeAnimation
       sequence={[
@@ -40,8 +40,8 @@ export const HeroSection = () => {
     />
          </h1>
          <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-         Enthusiastic coder with a passion for problem-solving and a love for clean code. Let's build something amazing!
-         </p>
+         Enthusiastic coder with a passion for problem-solving and a love for clean code. Let&apos;s build something amazing!
+        </p>
 
         <div>
         <button onClick={() => { window.location.href = 'https://www.linkedin.com/in/jitbhand/'; }} className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-300 via-purple-500 to-pink-500 bg-white hover:bg-slate-200 text-white'>
