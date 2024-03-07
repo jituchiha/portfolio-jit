@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "lint": "next lint",
-    "predeploy": "npm run build",
+    "predeploy": "next build",
     "deploy": "gh-pages -d out",
-    "start": "npm start",
-    "build": "npm run build",
+    "start": "next start",
+    "build": "next build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
