@@ -6,6 +6,8 @@ import NavLink from "./NavLink";
 import { Bars3Icon } from '@heroicons/react/24/solid';
 import {XMarkIcon} from '@heroicons/react/24/solid'
 import MenuOverlay from "./MenuOverlay";
+import { SolidIconName, OutlineIconName } from '@heroicons/react/24/solid';
+
 
 const navLinks = [
   {
