@@ -12,6 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.1",
     "framer-motion": "^11.0.8",
     "github-icon": "^0.1.13",
     "heroicons": "^2.1.1",
