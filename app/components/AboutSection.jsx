@@ -3,31 +3,31 @@ import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
-const TAB_DATA = [
-  {
-    title: "Skills",
-    id: "skills",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Education",
-    id: "education",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Indiana University Bloomington(MS in Computer Science)</li>
-        <li>CVR College of Engineering(BTech in Computer Science)</li>
-      </ul>
-    ),
-  },
+// const TAB_DATA = [
+//   {
+//     title: "Skills",
+//     id: "skills",
+//     content: (
+//       <ul className="list-disc pl-2">
+//         <li>Node.js</li>
+//         <li>Express</li>
+//         <li>PostgreSQL</li>
+//         <li>Sequelize</li>
+//         <li>JavaScript</li>
+//         <li>React</li>
+//       </ul>
+//     ),
+//   },
+//   {
+//     title: "Education",
+//     id: "education",
+//     content: (
+//       <ul className="list-disc pl-2">
+//         <li>Indiana University Bloomington(MS in Computer Science)</li>
+//         <li>CVR College of Engineering(BTech in Computer Science)</li>
+//       </ul>
+//     ),
+//   },
 //   {
 //     title: "Certifications",
 //     id: "certifications",
@@ -38,7 +38,7 @@ const TAB_DATA = [
 //       </ul>
 //     ),
 //   },
-];
+// ];
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
@@ -57,13 +57,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-  I am a passionate full stack web developer with a Master&apos;s degree in Computer Science and a 
-  Bachelor&apos;s degree in Computer Science. Proficient in JavaScript, React, Node.js, and various other technologies,
-  I specialize in creating interactive and responsive web applications. With a keen interest in learning and a collaborative spirit,
-  I am enthusiastic about contributing to innovative projects and expanding my skill set further.
+I&apos;m a boundary-pushing full-stack web developer, sculpting digital experiences that captivate and inspire. 
+Armed with a Masters degree in Computer Science and a Bachelor&apos;s degree, I blend artistry with technology to craft immersive web applications. 
+With a flair for data analytics and machine learning, I uncover insights that drive groundbreaking solutions. Let&apos;s collaborate on the next digital masterpiece!
 </p>
 
-          <div className="flex flex-row justify-start mt-8">
+          {/* <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
@@ -78,17 +77,17 @@ const AboutSection = () => {
               {" "}
               Education{" "}
             </TabButton>
-            {/* <TabButton
+            <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               {" "}
               Certifications{" "}
-            </TabButton> */}
-          </div>
-          <div className="mt-8">
+            </TabButton>
+          </div> */}
+          {/* <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
