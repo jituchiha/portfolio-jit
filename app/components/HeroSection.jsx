@@ -42,7 +42,7 @@ export const HeroSection = () => {
     Hire Me
 </button> */}
 
-            <button onClick={() => {window.location.href = "https://drive.google.com/file/d/1wd_RFc6iEDezSU__z499XD0sc4Epy4qd/view?usp=sharing";}} className='block bg-[#925bea] hover:bg-slate-800 rounded-full px-5 py-2 w-full sm:w-fit bg-transparent text-white mt-3'>
+            <button onClick={() => {window.location.href = "https://drive.google.com/file/d/1wd_RFc6iEDezSU__z499XD0sc4Epy4qd/view?usp=sharing";}} className='block bg-purple-400 hover:bg-slate-800 rounded-full px-5 py-2 w-full sm:w-fit bg-transparent text-white mt-3'>
                 {/* <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span> */}
                 Download CV
                 </button>
