@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import GithubIcon from "../../public/images/github-icon.svg";
 import LinkedinIcon from "../../public/images/linkedin-icon.svg";
+import MailIcon from "../../public/images/mail-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -50,10 +51,19 @@ const EmailSection = () => {
           Let&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
-          I&apos;m currently looking for new opportunities, feel free to contact me.
-         I&apos;ll try my best to get back to you as early as possible :)
-        </p>
+  {" "}
+  I&apos;m currently looking for new opportunities, feel free to contact me.
+  I&apos;ll try my best to get back to you as early as possible :){" "}
+  <Image
+    src={MailIcon}
+    alt="Mail Icon"
+    onClick={() => {
+      window.location.href = "mailto:jitbhandari99@gmail.com";
+    }}
+    className="cursor-pointer inline-block"
+  />
+</p>
+
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/jituchiha">
             <Image src={GithubIcon} alt="Github Icon" />
@@ -61,6 +71,10 @@ const EmailSection = () => {
           <Link href="https://www.linkedin.com/in/jitbhand/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+          
+
+          {/* <p>Mail to:</p>
+          <p><a href="mailto:jitbhandari99@gmail.com">jitbhandari99@gmail.com</a></p> */}
         </div>
       </div>
       {/* <div> */}
