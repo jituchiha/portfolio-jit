@@ -38,12 +38,13 @@ export const HeroSection = () => {
         </p>
 
         <div>
-        <button onClick={() => { window.location.href = 'https://www.linkedin.com/in/jitbhand/'; }} className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-300 via-purple-500 to-pink-500 bg-white hover:bg-slate-200 text-white'>
+        {/* <button onClick={() => { window.location.href = 'https://www.linkedin.com/in/jitbhand/'; }} className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-300 via-purple-500 to-pink-500 bg-white hover:bg-slate-200 text-white'>
     Hire Me
-</button>
+</button> */}
 
-            <button onClick={() => {window.location.href = "https://drive.google.com/file/d/1wd_RFc6iEDezSU__z499XD0sc4Epy4qd/view?usp=sharing";}} className='px-1 py-1 w-full sm:w-fit rounded-full bg-transparent bg-gradient-to-br from-blue-300 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'>
-                <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
+            <button onClick={() => {window.location.href = "https://drive.google.com/file/d/1wd_RFc6iEDezSU__z499XD0sc4Epy4qd/view?usp=sharing";}} className='block bg-[#925bea] hover:bg-slate-800 rounded-full px-5 py-2 px-1 py-1 w-full sm:w-fit rounded-full bg-transparent text-white mt-3'>
+                {/* <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span> */}
+                Download CV
                 </button>
         </div>
 
