@@ -26,16 +26,10 @@ export const HeroSection = () => {
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'Jitesh Bhandari',
-        1000,
-        'Software Engineer',
-        1000,
-        'Web Developer',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'Data Analyst',
-        1000,
+        50000,
       ]}
       wrapper="span"
-      speed={50}
+      speed={1}
       repeat={Infinity}
     />
          </h1>
