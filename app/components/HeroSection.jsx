@@ -38,7 +38,7 @@ export const HeroSection = () => {
         </p>
 
         <div>
-        <button onClick={() => { window.location.href = 'https://drive.google.com/file/d/1wd_RFc6iEDezSU__z499XD0sc4Epy4qd/view?usp=sharing'; }} className='px-6 py-3 w-full sm:w-fit rounded-full mr-4  bg-purple-500 hover:bg-purple-600 text-white'>
+        <button onClick={() => { window.location.href = 'https://drive.google.com/file/d/1n5QB3zBm8UBksnwhWKak-6FO3ZefgaN5/view?usp=sharing'; }} className='px-6 py-3 w-full sm:w-fit rounded-full mr-4  bg-purple-500 hover:bg-purple-600 text-white'>
     Download CV
 </button>
 {/* 
