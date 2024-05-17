@@ -16,15 +16,24 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Home Credit Default Risk(HCDR)",
-    description: "Home Credit Default Risk prediction project using machine learning.",
-    image: "/images/home-cred.jpeg",
+    title: "Node Classification using LLM and GNN",
+    description: "Node Classification for large-scale graphs",
+    image: "/images/gnn.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/jituchiha/HCDR",
-    previewUrl: "https://github.com/jituchiha/HCDR",
+    gitUrl: "https://github.com/saisena-ss/LLMGNN",
+    previewUrl: "https://github.com/saisena-ss/LLMGNN",
   },
   {
     id: 3,
+    title: "Artscape Analytics",
+    description: "Interactive viz platform for CRNY's art mission ",
+    image: "/images/crny.png",
+    tag: ["All", "Data Analytics"],
+    gitUrl: "https://github.com/akshada2712/visualizers_ny",
+    previewUrl: "https://thevisualizers.streamlit.app/",
+  },
+  {
+    id: 4,
     title: "Image-to-Text Recognition",
     description: "Image to text recognition using HMM",
     image: "/images/sign_text.png",
@@ -32,6 +41,18 @@ const projectsData = [
     gitUrl: "https://github.com/jituchiha/Reading-Text-using-HMM-and-POS-Tagging",
     previewUrl: "https://github.com/jituchiha/Reading-Text-using-HMM-and-POS-Tagging",
   },
+  {
+    id: 5,
+    title: "Home Credit Default Risk(HCDR)",
+    description: "Home Credit Default Risk prediction project using machine learning.",
+    image: "/images/home-cred.jpeg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/jituchiha/HCDR",
+    previewUrl: "https://github.com/jituchiha/HCDR",
+  }
+
+
+
 //   {
 //     id: 4,
 //     title: "Food Ordering Application",
@@ -96,11 +117,11 @@ const ProjectsSection = () => {
           name="Web"
           isSelected={tag === "Web"}
         />
-        {/* <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
-        /> */}
+          name="Data Analytics"
+          isSelected={tag === "Data Analytics"}
+        />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
